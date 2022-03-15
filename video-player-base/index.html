@@ -11,6 +11,41 @@
   <title>Video pLayer</title>
 </head>
 <body>
+  <button class="button" id="backward"> </button>
+  <button class="button" id="forward"></button>
+  <button class="button" id="play"> </button>
+  <button class="button" id="pause"></button>
+  <button class="button"></button>
+
+  <video  id= "video" controls poster="./images/poster.jpg"  src="./videos/sample.mp4" width="400"></video>
   <h1>video Player</h1>
+
+  <script>
+const $video = document.querySelector("#video")
+const $play = document.querySelector("#play")
+const $pause = document.querySelector("#pause")
+const $backward = document.querySelector("#backward")
+const $forward = document.querySelector("#forward")
+
+
+$play.addEventListener("click",handlePlay)
+$pause.addEventListener("click",handlePause)
+
+function handlePlay(){
+$video.play()
+$play.hidden = true
+$pause.hidden = false
+
+console.log("you've clicked play")
+}
+
+
+function handlePause(){
+$video.pause()
+$pause.hidden = true
+$play.hidden = false 
+console.log("you've clicked pause")
+}
+  </script>
 </body>
 </html>

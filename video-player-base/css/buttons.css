@@ -7,6 +7,11 @@ button{
     border: 1px solid red;
     background-repeat:no-repeat ;
     background-position: center;
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(.9);
 }
 
 #play{
