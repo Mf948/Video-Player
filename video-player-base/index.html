@@ -11,14 +11,24 @@
   <title>Video pLayer</title>
 </head>
 <body>
-  <button class="button" id="backward"> </button>
-  <button class="button" id="forward"></button>
-  <button class="button" id="play"> </button>
-  <button class="button" id="pause"></button>
-  <button class="button"></button>
 
-  <video  id= "video" controls poster="./images/poster.jpg"  src="./videos/sample.mp4" width="400"></video>
   <h1>video Player</h1>
+<div class="wrapper">
+
+  <div class="player">
+    <button class="button"aria-label="backward 10 seconds" id="backward" title="backward 10 seconds"> </button>
+    <button class="button" aria-label="play" id="play" title="play"> </button>
+    <button class="button" id="pause" title="pause"></button>
+    <button class="button" aria-label="forward 10 seconds"id="forward" title="forward 10 seconds"></button>
+    
+    <video  id= "video" controls poster="./images/poster.jpg"  src="./videos/sample.mp4" width="400" ></video>
+
+  </div>
+
+
+</div>
+  
+
 
   <script>
 const $video = document.querySelector("#video")
