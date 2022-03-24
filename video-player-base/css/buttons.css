@@ -4,7 +4,6 @@ button{
     block-size: 32px;
     border: none;
     background-color: transparent;
-    border: 1px solid red;
     background-repeat:no-repeat ;
     background-position: center;
     cursor: pointer;

@@ -16,14 +16,25 @@
 <div class="wrapper">
 
   <div class="player">
-    <button class="button"aria-label="backward 10 seconds" id="backward" title="backward 10 seconds"> </button>
-    <button class="button" aria-label="play" id="play" title="play"> </button>
-    <button class="button" id="pause" title="pause"></button>
-    <button class="button" aria-label="forward 10 seconds"id="forward" title="forward 10 seconds"></button>
+  
+    <video  id= "video"  poster="./images/poster.jpg"  src="./videos/sample.mp4" width="400" ></video>
+   
+   <div class="player-overlay">
+    <h2 class="player-title"> Musica para Programar</h2>
+    <div class="player-actions">
+      <button class="button"aria-label="backward 10 seconds" id="backward" title="backward 10 seconds"> </button>
+      <button class="button" aria-label="play" id="play" title="play"> </button>
+      <button class="button" id="pause" title="pause"></button>
+      <button class="button" aria-label="forward 10 seconds"id="forward" title="forward 10 seconds"></button>
+    </div>
+    <div class="player-progress">
+      <input  id="progress"type="range" min="0" value="0"step="1">
+    </div>
+   </div>
     
-    <video  id= "video" controls poster="./images/poster.jpg"  src="./videos/sample.mp4" width="400" ></video>
-
+    
   </div>
+
 
 
 </div>
