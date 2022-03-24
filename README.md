@@ -3,18 +3,18 @@
 </div>
 
 # Video Player
-Construye un lindo reproductor de video y disfruta de contenido a tu propio estilo.
 
-## Requerimentos
+Build a Modern style design Video Player 
+## Requirements 
 
 Estilo libre. Lleva el diseño al código utilizando tu framework favorito, o con HTML y CSS, no hay ninguna limitación.
 
-- Aplicar una animación opcional para generar un efecto de transición al pausar y reproducir contenido
-- Podrás avanzar o retroceder 10 segundos al presionar las acciones
-- Cubre todas las resoluciones del diseño
-- Sube tu código a GitHub
-- Publica tu resultado con github pages
-- Mándalo a revisión desde tu [perfil](https://leonidasesteban.com/estudiante)
+- Apply an optional animation to generate a transition effect when pausing and playing content
+- You can move forward or back 10 seconds by pressing the actions
+- Covers all design resolutions
+- Upload your code to GitHub
+- Publish your result with github pages
+- Send it for review from your [profile](https://leonidasesteban.com/estudiante)
 
 
 ## Desktop
@@ -28,15 +28,11 @@ Estilo libre. Lleva el diseño al código utilizando tu framework favorito, o co
 
 ## Disclaimer
 
-Todas son propuestas, el propósito de **/Proyectos** es brindarte el diseño, el límite de la creación lo dictan tus ganas de hacerlo realidad y tu skills del momento a la hora de codear.
+all proposals, the purpose of **/Projects** is to provide you with the design, the limit of creation is dictated by your desire to make it a reality and your current skills when it comes to code.
 
 
-## Revisión
+## Credits
 
-Recuerda mandar tu proyecto a revisión, si aún no conoces como funciona el proceso de revisión lee este post: [Como usar proyectos en 3 pasos](https://leonidasesteban.com/blog/como-usar-proyectos-en-3-pasos)
+Find more amazing projects in [/Projects](https://leonidasesteban.com/projects)
 
-## Créditos
-
-Encuentra más proyectos asombrosos en [/Proyectos](https://leonidasesteban.com/proyectos)
-
-Diseñado con ♥️ en leonidasesteban.com
+Designed with ♥️ at leonidasesteban.com
